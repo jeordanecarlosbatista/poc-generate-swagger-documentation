@@ -14,7 +14,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: spec-file
-          path: public/openapi.json
+          path: ./public/openapi.json
   deploy:
     runs-on: ubuntu-latest
     steps:
